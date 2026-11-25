@@ -1,0 +1,9 @@
+.staging/
+macos/build/*
+!macos/build/AppIcon.icns
+**/__pycache__/
+windows/installer/输出/
+windows/installer/msi/out/
+windows/build/
+*.pyc
+*.log

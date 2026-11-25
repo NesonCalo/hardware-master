@@ -1,0 +1,6 @@
+pywebview==6.2.1
+psutil>=7.0
+pythonnet>=3.0
+pillow>=10.0
+pystray>=0.19.5
+pyinstaller>=6.10
