@@ -23,9 +23,17 @@ macos/     macOS 版源码（Sources/ SwiftUI 与传感器助手、Resources/ �
 
 | 文件 | 平台 | 说明 |
 | --- | --- | --- |
-| `硬件管理大师-安装程序-1.1.0.exe` | Windows 10/11 x64 | 安装到 `Program Files\NesonCalo\Hardware Master`，带开始菜单与桌面快捷方式；只有安装这一步需要一次管理员授权 |
-| `硬件管理大师-1.1.0.dmg` | Apple Silicon Mac，macOS 14+ | 拖到「应用程序」即可；本地 ad-hoc 签名，首次打开需右键 → 打开 |
+| `HardwareMaster-Setup-1.1.0.exe` | Windows 10/11 x64 | 安装到 `Program Files\NesonCalo\Hardware Master`，带开始菜单与桌面快捷方式；只有安装这一步需要一次管理员授权 |
+| `hardware-master-1.1.0.dmg` | Apple Silicon Mac，macOS 14+ | 拖到「应用程序」即可；本地 ad-hoc 签名，首次打开需右键 → 打开 |
 | `hardware-master-1.1.0-source.zip` | 全部 | 两个平台的源码快照 |
+
+SHA-256：
+
+```
+6c9a8d1c06c977df03ce0efd42932465483cd0051dba642d3c96ec3c922720da  HardwareMaster-Setup-1.1.0.exe
+3d0234b5f6ef924fd35f5a32aabc9f3b9d877a25283a517d33ed5f117e51a788  hardware-master-1.1.0.dmg
+47d53d35766eae2635825445f9b4b401db4390b3afbcd6c1c3257094ce0f600d  hardware-master-1.1.0-source.zip
+```
 
 ## 功能概览
 
