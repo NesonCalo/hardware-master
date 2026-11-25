@@ -1,6 +1,8 @@
 .staging/
 macos/build/*
 !macos/build/AppIcon.icns
+android/build/
+android/签名/
 **/__pycache__/
 windows/installer/输出/
 windows/installer/msi/out/
