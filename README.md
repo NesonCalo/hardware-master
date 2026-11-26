@@ -17,7 +17,7 @@ macos/     macOS 版源码（Sources/ SwiftUI 与传感器助手、Resources/ �
 android/   Android 版源码（src/ Java 界面与采集、assets/ 25 种语言资源、tools/ 翻译脚本、build.ps1 手工构建）
 ```
 
-两个平台各自的详细说明在 `windows/README.md` 与 `macos/README.md`。
+各平台的详细说明在 `windows/README.md`、`macos/README.md` 与 `android/README.md`。
 
 ## 下载安装
 
@@ -52,6 +52,38 @@ SHA-256：
 9DD183E6B13492D470BA2CAA705A16942C6B424A00AA2A402F2C54907F6D675A  HardwareMaster-1.2.0.apk
 FC227B84DDDB7DDD6934057DCC0CE78281E265D279AF2632FF418FF3416E2A5B  HardwareMaster-Android-1.2.0-source.zip
 ```
+
+## 界面预览
+
+全部截图在 [`docs/screenshots/`](docs/screenshots)，按平台分目录；图片可直接点开查看原图。
+
+### Windows · v1.1.0
+
+| 概览 | 温度与功耗 | 功耗 |
+| :---: | :---: | :---: |
+| [![Windows 概览](docs/screenshots/windows/overview.jpg)](docs/screenshots/windows/overview.jpg) | [![Windows 温度与功耗](docs/screenshots/windows/thermal.jpg)](docs/screenshots/windows/thermal.jpg) | [![Windows 功耗](docs/screenshots/windows/power.jpg)](docs/screenshots/windows/power.jpg) |
+| **网络** | **驱动** | **设置** |
+| [![Windows 网络](docs/screenshots/windows/network.jpg)](docs/screenshots/windows/network.jpg) | [![Windows 驱动](docs/screenshots/windows/drivers.jpg)](docs/screenshots/windows/drivers.jpg) | [![Windows 设置](docs/screenshots/windows/settings.jpg)](docs/screenshots/windows/settings.jpg) |
+| **桌面小组件** | **关于** | |
+| [![Windows 桌面小组件](docs/screenshots/windows/widget.jpg)](docs/screenshots/windows/widget.jpg) | [![Windows 关于](docs/screenshots/windows/about.jpg)](docs/screenshots/windows/about.jpg) | |
+
+### macOS · v1.1.0
+
+| 概览 | 处理器 | 内存 |
+| :---: | :---: | :---: |
+| [![macOS 概览](docs/screenshots/macos/overview.jpg)](docs/screenshots/macos/overview.jpg) | [![macOS 处理器](docs/screenshots/macos/cpu.jpg)](docs/screenshots/macos/cpu.jpg) | [![macOS 内存](docs/screenshots/macos/memory.jpg)](docs/screenshots/macos/memory.jpg) |
+| **温度与功耗** | **网络** | **磁盘** |
+| [![macOS 温度与功耗](docs/screenshots/macos/thermal.jpg)](docs/screenshots/macos/thermal.jpg) | [![macOS 网络](docs/screenshots/macos/network.jpg)](docs/screenshots/macos/network.jpg) | [![macOS 磁盘](docs/screenshots/macos/disk.jpg)](docs/screenshots/macos/disk.jpg) |
+| **设置（中文）** | **温度与功耗（英文）** | **界面语言（英文）** |
+| [![macOS 设置](docs/screenshots/macos/settings-zh.jpg)](docs/screenshots/macos/settings-zh.jpg) | [![macOS 温度与功耗英文](docs/screenshots/macos/thermal-en.jpg)](docs/screenshots/macos/thermal-en.jpg) | [![macOS 界面语言英文](docs/screenshots/macos/language-en.jpg)](docs/screenshots/macos/language-en.jpg) |
+
+### Android · v1.2.0
+
+| 概览 | 充电 | 电池 | 温度与功耗 |
+| :---: | :---: | :---: | :---: |
+| [![Android 概览](docs/screenshots/android/overview.jpg)](docs/screenshots/android/overview.jpg) | [![Android 充电](docs/screenshots/android/charging.jpg)](docs/screenshots/android/charging.jpg) | [![Android 电池](docs/screenshots/android/battery.jpg)](docs/screenshots/android/battery.jpg) | [![Android 温度与功耗](docs/screenshots/android/thermal.jpg)](docs/screenshots/android/thermal.jpg) |
+| **充电记录** | **设置** | **温度与功耗（日文）** | **概览（英文）** |
+| [![Android 充电记录](docs/screenshots/android/history.jpg)](docs/screenshots/android/history.jpg) | [![Android 设置](docs/screenshots/android/settings.jpg)](docs/screenshots/android/settings.jpg) | [![Android 温度与功耗日文](docs/screenshots/android/thermal-ja.jpg)](docs/screenshots/android/thermal-ja.jpg) | [![Android 概览英文](docs/screenshots/android/overview-en.jpg)](docs/screenshots/android/overview-en.jpg) |
 
 ## 功能概览
 
